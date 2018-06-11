@@ -12,7 +12,7 @@
   percpu = true
   ## Whether to report total system cpu stats or not
   totalcpu = true
-  ## If true, collect raw CPU time metrics.
+  ## If true, collect raw CPU time metrics. (Ignored on Windows)
   collect_cpu_time = false
   ## If true, compute and report the sum of all non-idle CPU states.
   report_active = false
